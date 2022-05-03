@@ -71,8 +71,19 @@
 <p><a href="/CTF-event/NahamCon-CTF-2022/index.html">Link</a></p>
 
     </section>
+    <h1 id="header-1">Prisoner:</h1>
+    <p>Have you ever broken out of jail? Maybe it is easier than you think!</p>
+    <p>After starting the instance we are given ssh creds: <br>
+        Connect with: <br>
+        # Password is "userpass" <br>
+        ssh -p 32233 user@challenge.nahamcon.com <br>
+        It turns out that the shell dropped us into a running python terminal. This can exit the python interpreter with the CTRL + D keys. <br>
+        then,we run some basic python to attain command execution and get the flag <br>
+        <img src="./src/Prisoner.png" alt="Prisoner">
+        <div class="language-plaintext"><pre><code>flag{c31e05a24493a202fad0d1a827103642}
+        </code></pre></div>
+    </p>
   </div>
-
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <section id="footer">
@@ -82,4 +93,5 @@
     <a href="https://github.com/aftab700" class="fa fa-github" style="font-size:30px" target="_blank"></a>
   </section>
 </body>
+
 </html>

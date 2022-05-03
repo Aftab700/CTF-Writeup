@@ -71,8 +71,47 @@
 <p><a href="/CTF-event/NahamCon-CTF-2022/index.html">Link</a></p>
 
     </section>
+    <h1 id="header-1">Wizard:</h1>
+    <p>
+        You have stumbled upon a wizard on your path to the flag. You must answer his questions!
+        <br>Connect with: <br>
+        nc challenge.nahamcon.com 32201 <br>
+        it gives us the questions and we have to give input the answers <br>
+        <br>First Question: What is the ASCII plaintext corresponding to this binary string? 
+        <br> 010110100110010101110010011011110111001100100000001001100010000001001111011011100110010101110011
+        <br>From Binary: "Zeros & Ones" <br><br>
+        Second Question: What is the ASCII plaintext corresponding to this hex string? <br>
+        4f6820776f77777721204261736520313020697320636f6f6c20616e6420616c6c2062757420486578787878 <br>
+        From Hex: "Oh wowww! Base 10 is cool and all but Hexxxx" <br><br>
+        Third Question: What is the ASCII plaintext corresponding to this octal string? <br>
+(HINT: octal -> int -> hex -> chars) <br>
+535451006154133420162312701623127154533472040334725553046256234620151334201413347444030460563312201673122016730267164 <br>
+<ul>
+    <li>Octal to HexaDecimal</li>
+    <li>From Hex</li>
+    "We can represent numbers in any base we want"
+</ul>
+Fourth Question: What is the ACII representation of this integer? <br>
+(HINT: int -> hex -> chars) <br>
+8889185069805239596091046045687553579520816794635237831028832039457 <br>
+<ul>
+    <li>Desimal to HexaDecimal</li>
+    <li>From Hex</li>
+    "This is one big 'ol integer!"
+</ul> 
+Fifth Question: What is the ASCII plaintext of this Base64 string? <br>
+QmFzZXMgb24gYmFzZXMgb24gYmFzZXMgb24gYmFzZXMgOik= <br>
+From Base64: "Bases on bases on bases on bases :)" <br><br>
+Last Question: What is the Big-Endian representation of this Little-Endian hex string? <br>
+293a2065636e657265666669642065687420776f6e6b206f7420646f6f672073277449 <br>
+<ul>
+    <li><a href="https://www.save-editor.com/tools/wse_hex.html" >LITTLE to BIG ENDIAN</a></li>
+    <li>From Hex</li>
+    "It's good to know the difference :)"
+</ul> 
+    </p>
+    <pre><code>flag{c2ed35aba037cd93381b298caa2720ee}</code></pre>
   </div>
-
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <section id="footer">
@@ -82,4 +121,5 @@
     <a href="https://github.com/aftab700" class="fa fa-github" style="font-size:30px" target="_blank"></a>
   </section>
 </body>
+
 </html>

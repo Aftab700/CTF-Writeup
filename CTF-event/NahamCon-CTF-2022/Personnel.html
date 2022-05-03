@@ -71,8 +71,16 @@
 <p><a href="/CTF-event/NahamCon-CTF-2022/index.html">Link</a></p>
 
     </section>
+    <h1 id="header-1">Personnel:</h1>
+<p>A challenge that was never discovered during the 2021 Constellations mission... now ungated :)
+    <br>Attachment: <a href="./src/Personnel-app.py" target="_">app.py</a>
+    looking at app.py it will remove first character from name parameter 'name = name[1:]' and put it in regex <br>
+    'results = re.findall(r"[A-Z][a-z]*?" + name + r"[a-z]*?\n", users, setting)' <br>
+    in regex ".*" means everything and we can escape other conditions with use of or operator "|". <br>
+    payload: <span style="font-family: 'Courier New', Courier, monospace;">A|.*|</span>
+</p>
+    <pre><code>flag{f0e659b45b507d8633065bbd2832c627}</code></pre>
   </div>
-
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <section id="footer">
@@ -82,4 +90,5 @@
     <a href="https://github.com/aftab700" class="fa fa-github" style="font-size:30px" target="_blank"></a>
   </section>
 </body>
+
 </html>
